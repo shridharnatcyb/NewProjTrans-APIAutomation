@@ -1,0 +1,29 @@
+"Host","apiPath","auth-userName:password","actualResponse","statusCode","AnyMSG"
+"https://api.enterprise.apigee.com","","revell938@gmail.com:Cybage@123","{
+  ""createdAt"" : 1499691800593,
+  ""createdBy"" : ""accounts_apigee_admin@google.com"",
+  ""displayName"" : ""revell938-trial"",
+  ""environments"" : [ ""prod"", ""test"" ],
+  ""lastModifiedAt"" : 1548299906629,
+  ""lastModifiedBy"" : ""craigmwarren@google.com"",
+  ""name"" : ""revell938-trial"",
+  ""properties"" : {
+    ""property"" : [ {
+      ""name"" : ""features.isSmbOrganization"",
+      ""value"" : ""false""
+    }, {
+      ""name"" : ""features.isConnectorsEnabled"",
+      ""value"" : ""true""
+    }, {
+      ""name"" : ""features.isCpsEnabled"",
+      ""value"" : ""true""
+    }, {
+      ""name"" : ""features.isEdgeFunctionsEnabled"",
+      ""value"" : ""true""
+    } ]
+  },
+  ""type"" : ""trial""
+}","200","HTTP/1.1 200 OK"
+"https://api.enterprise.apigee.com","","revell938@gmail.com:123","","401","HTTP/1.1 401 Unauthorized"
+"https://api.enterprise.apigee.com","","revell938@gmail:Cybage@123","","401","HTTP/1.1 401 Unauthorized"
+"https://api.enterprise.apigee.com",""," : ","","401","HTTP/1.1 401 Unauthorized"

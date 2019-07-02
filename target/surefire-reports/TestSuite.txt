@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 9.863 s <<< FAILURE! - in TestSuite
+basicAuthorization(com.apiTests.BasicAuthTests)  Time elapsed: 1.315 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	same how bad request or credentials worng  expected [200] but found [401]
+	at com.apiTests.BasicAuthTests.basicAuthorization(BasicAuthTests.java:160)
+
+basicAuthorization(com.apiTests.BasicAuthTests)  Time elapsed: 0.758 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	same how bad request or credentials worng  expected [200] but found [401]
+	at com.apiTests.BasicAuthTests.basicAuthorization(BasicAuthTests.java:160)
+
+basicAuthorization(com.apiTests.BasicAuthTests)  Time elapsed: 0.771 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	same how bad request or credentials worng  expected [200] but found [401]
+	at com.apiTests.BasicAuthTests.basicAuthorization(BasicAuthTests.java:160)
+
